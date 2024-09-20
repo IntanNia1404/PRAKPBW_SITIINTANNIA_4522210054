@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../Tins.Com - Kelompok 5/pages"
+		},
+		{
+			"path": "../Tins.Com - Kelompok 5/images"
+		},
+		{
+			"path": "../Tins.Com - Kelompok 5/assets"
+		},
+		{
+			"path": "../Tins.Com - Kelompok 5/.vscode"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pages"
+	}
+}
