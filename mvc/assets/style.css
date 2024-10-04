@@ -1,0 +1,132 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9bcbff; /* Background warna biru muda */
+    color: #fff; /* Warna teks putih */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Pusatkan konten dalam container */
+}
+
+.header, .footer {
+    background-color: #0056b3; /* Biru lebih gelap untuk header dan footer */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.main-content {
+    background-color: #fff;
+    color: #333; /* Warna teks default untuk konten utama */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Untuk memusatkan main content */
+    width: 80%; /* Set lebar main content */
+}
+
+/* Typography */
+h1, h2, h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Table */
+table {
+    width: 50%; /* Set lebar tabel */
+    margin: 20px auto; /* Memusatkan tabel secara horizontal */
+    border-collapse: collapse;
+    background-color: #fff;
+    color: #333;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center; /* Pusatkan teks dalam tabel */
+}
+
+th {
+    background-color: #0056b3; /* Header tabel dengan warna biru lebih gelap */
+    color: white;
+}
+
+/* Form */
+.form-container {
+    margin: 20px auto; /* Memusatkan form */
+    width: 50%; /* Set lebar form */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.form-container input[type="text"], 
+.form-container input[type="number"], 
+.form-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-container input[type="submit"] {
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #003d82;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #003d82;
+}
+
+/* Footer */
+.footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #003d82;
+    color: #ddd;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
